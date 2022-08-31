@@ -2,6 +2,12 @@ header{
     background-color:#ffffff;
     
 }
+body{
+  font-family: "roboto", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing:0.5px;
+}
 .sitenav-list{
 list-style: none;
 }
@@ -13,6 +19,7 @@ list-style: none;
     text-transform: uppercase;
     text-decoration:none;
     color:#000;
+    font-family: "roboto","arial",sans-serif;
    }
    .primary-button{
     font-size: 13px;
@@ -20,6 +27,7 @@ list-style: none;
     background-color: #ff7500;
     color:#000;
     text-decoration: none;
+    font-family: "roboto",sans-serif;
 
    }
 
@@ -39,24 +47,24 @@ list-style: none;
    .python-book{
     width: 510px;
     height: 510px;
+    border-radius:1em;
    }
    .hero-heading{
+    font-family: "roboto condensed", "arial", sans-serif;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.5px;
     
    }
-   .hero-text{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing:0.5px;
+   
 
-   }
+   
    .features-tittle{
     width: 440px;
     font-size: 72px;
     line-height: 1.2;
     letter-spacing: 0.5px;
+    font-family: "roboto condensed",sans-serif;
 
    }
    .feature-icon-wrapper{
@@ -68,14 +76,12 @@ list-style: none;
     font-size: 24px;
     line-height: 1.2;
     letter-spacing:0.5px;
+    font-family: "roboto condensed",sans-serif;
     
    }
-  .feature-info{
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.5px;
 
-  }
+
+  
   .feature-item{
     width: 340px;
   }
@@ -90,12 +96,11 @@ list-style: none;
     .sale-heading{
         font-size: 40px;
         line-height: 48px;
+        font-family: "roboto condensed",sans-serif;
     }
-    .sale-info{
-        font-size: 16px;
-        line-height: 1.5;
-    }
-   
+
+    
+  
     .sale-image{
     width: 440px;
     height: 440px;
@@ -119,5 +124,6 @@ list-style: none;
 
     }
     .site-footer-link-list{
-        width: 224px;
-    }
+        width: 224;
+      }
+    
