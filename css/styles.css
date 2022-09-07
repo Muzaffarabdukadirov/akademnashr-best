@@ -17,6 +17,17 @@ body{
 list-style: none;
 display: flex;
 }
+.img{
+  list-style: none;
+  transition: opacity 0.4s ease,
+
+}
+.img:hover{
+  opacity:0.8;
+}
+.img:active{
+  opacity:0.6;
+}
 .sitenav-link {
     font-weight: 500;
     font-size:13;
@@ -26,6 +37,15 @@ display: flex;
     text-decoration:none;
     color:#000;
     font-family: "roboto","arial",sans-serif;
+    transition:color 0.4s ease, opacity 0.4s ease;
+   }
+   .sitenav-link:hover{
+    color:rgba(255, 117,0,1)
+   }
+   .sitenav-link:active{
+    color: rgba(255, 117, 0, 1);
+    opacity:0.6;
+
    }
    .primary-button{
     font-size: 13px;
@@ -34,7 +54,15 @@ display: flex;
     color:#000;
     text-decoration: none;
     font-family: "roboto",sans-serif;
+    transition: opacity 0.4s ease;
+    height: 15px;;
 
+   }
+   .primary-button:hover{
+    opacity: 0.8;
+   }
+   .primary-button:active{
+    opacity: 0.6;
    }
 
    .hero{
@@ -63,11 +91,11 @@ display: flex;
     font-size: 40px;
     line-height: 1.2;
     letter-spacing: 0.5px;
-    
-   }
-   
 
-   
+   }
+
+
+
    .features-tittle{
     width: 440px;
     font-size: 72px;
@@ -91,11 +119,11 @@ display: flex;
     line-height: 1.2;
     letter-spacing:0.5px;
     font-family: "roboto condensed",sans-serif;
-    
+
    }
 
 
-  
+
   .feature-item{
     width: 340px;
   }
@@ -116,8 +144,8 @@ display: flex;
         font-family: "roboto condensed",sans-serif;
     }
 
-    
-  
+
+
     .sale-image{
     width: 440px;
     height: 440px;
@@ -127,12 +155,19 @@ display: flex;
     .site-footer{
     background-color: #f8f8f8;
     }
-    .socials{
+    .socials-list{
       display: flex;
       align-items: center;
-    
-   
-   
+    }
+    .socials-list a{
+      color:#252420
+    }
+    .socials-list a:hover{
+    color:#ff7500;
+    }
+    .socials-list a:active{
+      opacity: 0.8;
+      color:#ff7500 ;
     }
     .site-footer-top{
       display: flex;
@@ -144,7 +179,7 @@ display: flex;
     .site-footer-devider{
     background-color: rgba(37, 36,32, 0.5);
     height: 2px;
-    } 
+    }
     .site-footer-link-list a{
     text-decoration: none;
     color:#252420;
@@ -154,10 +189,24 @@ display: flex;
     }
     .site-footer-link-list{
         width: 224;
+        transition: opacity 0.4s ease, color 0.4s ease;
+      }
+      .site-footer a{
+        transition: opacity 0.4s ease, color 0.4s ease;
+      }
+      .site-footer a:hover{
+        color:rgba(255, 117, 0, 1);
+
+      }
+      .site-footer a:active{
+        color:rgba(255, 117, 0, 1);
+       opacity: 0.6;
+      }
+      .site-footer a:focus{
+        opacity: 0.6;
       }
       .site-footer-bottom{
         display: flex;
         justify-content: space-evenly;
+
       }
-      
-    
